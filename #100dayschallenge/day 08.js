@@ -34,18 +34,18 @@ console.log(Username.toLowerCase() == "aurora"); //true
 //NUMERICAL TEST
 console.log("Numerical Test");
 console.log(5 < 2); //false
-console.log(7 > 6); //true         
+console.log(7 > 6); //true
 //TESTING ITEM IS IN ARRAY
 let Actor = [" Bai JingTing ", "Li Xian", " Yang Yang "];
 console.log("Is Li Xian is include in Actor list? ");
 console.log(Actor.includes("Li Xian")); //true
-// TESTING ITEM IS NOT INCLUDES IN ARRAY 
+// TESTING ITEM IS NOT INCLUDES IN ARRAY
 console.log("Is Wang Kai is include in Actor list?");
 console.log(!Actor.includes("Wang Kai")); //true
 //TETING WITH "AND","OR"
 let a = 5;
 let b = 2;
-let And = (a > 0) && (b > 0); //true
-let OR = (a < 0) || (b < 0); //false
+let And = a > 0 && b > 0; //true
+let OR = a < 0 || b < 0; //false
 console.log(And);
 console.log(OR);

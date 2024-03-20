@@ -1,6 +1,6 @@
 "use strict";
 // QUESTION NO 10 (JUST ADD COMMENT AND WRITE SOME LINE)
-// EBAD  
+// EBAD
 // 05.03.2024
 let person = "WO DOO";
 console.log(`${person} said,"I get hurt when i protect people,and i protect people when i get hurt

@@ -1,7 +1,7 @@
 #!  /usr/bin/env/node
 //SHABANG
 import inquirer from "inquirer";
-let answer = await inquirer.prompt([
+const answer = await inquirer.prompt([
     { message: "Enter firstnumber", type: "number", name: "firstnumber" },
     { message: "Ënter secondnumber", type: "number", name: "secondnumber" },
     {

@@ -4,13 +4,13 @@ let alien_color = "green";
 if (alien_color == "green") {
     console.log("If someone show up when you need them , you call that destiny");
 }
-// VERSION THAT FAIL AND NO OUTPUT 
+// VERSION THAT FAIL AND NO OUTPUT
 if (alien_color == " red") {
     console.log("I guess you don't know i'm his Unbreakable Sword");
 }
 // QUESTION NO 26 (ALIEN COLOR WRITE IN IF AND ELSE CHAIN)
-// Version that runs the if block:
-if (alien_color = "green") {
+// Version that runs the if block:S
+if ((alien_color = "green")) {
     console.log("I should've known my place,I dreamed the impossible dream");
 }
 else {

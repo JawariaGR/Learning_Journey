@@ -4,10 +4,9 @@ let transportname = ["Lamborghini", "Bugatti", "Wrangler jeep"];
 for (let name of transportname) {
     console.log(` I hope i am purchaes ${name} in the future `);
 }
-;
-// QUESTION NO 14 (MAKE A GUESTLIST AND SEND A INVITATION CARD) 
+// QUESTION NO 14 (MAKE A GUESTLIST AND SEND A INVITATION CARD)
 let guestlist = ["Sharam", "Misbah", "Maria"];
-guestlist.forEach(guest => {
+guestlist.forEach((guest) => {
     console.log(`${guest}, I am arranging a party so I hope you can come.
       Your presence would be greatly appreciated.`);
 });
@@ -17,7 +16,7 @@ console.log(`${unabletoattend} can't come to party`);
 //REPLACE A GUEST
 let newguest = "Anayat";
 guestlist[guestlist.indexOf(unabletoattend)] = newguest;
-guestlist.forEach(guests => {
+guestlist.forEach((guests) => {
     console.log(`${guests}, I am arranging a party so I hope you can come.
       Your presence would be greatly appreciated.`);
 });

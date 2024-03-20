@@ -6,7 +6,7 @@ console.log("Today i am arranging a party in my house!");
 guests.unshift("Bill");
 guests.splice(guests.length / 2, 0, "Jack");
 guests.push("Mark");
-guests.forEach(guest => {
+guests.forEach((guest) => {
     console.log(` i hope ${guest} you come
     Your presence would be greatly appreciated`);
 });
@@ -17,15 +17,20 @@ while (guests.length > 2) {
     console.log(`Sorry ${removedguest}, i am encountering a some issuse that's why i am not 
     inviting you in today party`);
 }
-;
-guests.forEach(guests => {
+guests.forEach((guests) => {
     console.log(`${guests} i am invite a some people but i hope you are still 
         attend today party `);
 });
 guests.splice(0, guests.length);
 console.log(guests);
-// QUESTION NO 18 ( ORGANIZED ARRAY IN DYNAMIC SITUATION) 
-let places = ["China", "Australia", "Maldives", "Indonesia", "Turkey"];
+// QUESTION NO 18 ( ORGANIZED ARRAY IN DYNAMIC SITUATION)
+let places = [
+    "China",
+    "Australia",
+    "Maldives",
+    "Indonesia",
+    "Turkey",
+];
 console.log("Original Order :", places);
 console.log("Alphabetical Order :", [...places].sort());
 console.log("Reverse Alphabetucal Order:", [...places].sort().reverse());

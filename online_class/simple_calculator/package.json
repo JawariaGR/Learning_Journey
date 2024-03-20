@@ -1,5 +1,5 @@
-{
-  "name": "jgr49-simple-calculator",
+{ 
+  "name": "jgr47-simple-calculator",
   "version": "1.0.1",
   "description": " simple calcultor with typescript, node.js and inquirer",
   "main": "index.js",
