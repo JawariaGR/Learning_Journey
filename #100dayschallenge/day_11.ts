@@ -21,15 +21,15 @@ console.log(`${new_user}, i'm relly happy for your joining`)
 
 
 //QUESTION NO 33 (DISPLAY NUMBER WITH THEIR ORDINAL SUFFIXES)
-let NUMBER:number[] =[1,2,3,4,5,6,7,8,9];
-NUMBER.forEach(NUMBERS =>{
-    let suffix = "th";
-    if(NUMBERS === 1) {
-        suffix = "st";
-} else if (NUMBERS === 2) {
-    suffix = "nd"
-} else if (NUMBERS === 3) {
-    suffix = "rd";
-} console.log (`${NUMBER}${suffix}`);
-}
-    )
+let point:number[] = [1,2,3,4,5,6,7,8,9,]; 
+    point.forEach(points => {
+        let suffix = "th";
+        if (points === 1) {
+            suffix = "st";
+        } else if (points === 2) {
+            suffix = "nd";
+        } else if (points ===3) {
+            suffix = "rd";
+        }   console.log(`${points}${suffix}`);
+    });
+

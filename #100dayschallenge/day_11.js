@@ -20,17 +20,17 @@ new_users.forEach(new_user => {
     }
 });
 //QUESTION NO 33 (DISPLAY NUMBER WITH THEIR ORDINAL SUFFIXES)
-let NUMBER = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-NUMBER.forEach(NUMBERS => {
+let point = [1, 2, 3, 4, 5, 6, 7, 8, 9,];
+point.forEach(points => {
     let suffix = "th";
-    if (NUMBERS === 1) {
+    if (points === 1) {
         suffix = "st";
     }
-    else if (NUMBERS === 2) {
+    else if (points === 2) {
         suffix = "nd";
     }
-    else if (NUMBERS === 3) {
+    else if (points === 3) {
         suffix = "rd";
     }
-    console.log(`${NUMBERS}${suffix}`);
+    console.log(`${points}${suffix}`);
 });
