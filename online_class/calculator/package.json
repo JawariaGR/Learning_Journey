@@ -1,6 +1,6 @@
 {
   "name": "jgr22-calculator",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "\" simple calcultor with typescript, node.js and inquirer\"",
   "main": "index.js",
   "type": "module",
