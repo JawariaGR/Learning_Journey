@@ -22,9 +22,9 @@ function make_shirt(
   );
 }
 
-make_shirt(); // Default large and message
-make_shirt("medium"); // Default message, medium size
-make_shirt("small", "Dive into Coding"); // Custom message, small size
+make_shirt(); 
+make_shirt("medium"); 
+make_shirt("small", "Dive into Coding"); 
 
 //QUESTION NO 38 (DESCRIBING CITIES WITH A FUNCTION )
 
@@ -35,6 +35,7 @@ DESCRIBING_city("Luoyang", "China");
 DESCRIBING_city("Bursa", "Turkey");
 
 //QUESTION NO 39 (RETURNING FORMATTEING)
+
 function city_country(city: string, country: string): string {
   return `${city},${country}`;
 }
