@@ -9,9 +9,9 @@ Make_Shirt("Large", "Legend Never Die", "White", "Black");
 function make_shirt(size = "large", message = "I love TypeScript") {
     console.log(`Making a ${size} t-shirt with the message "${message}" printed on it.`);
 }
-make_shirt(); // Default large and message
-make_shirt("medium"); // Default message, medium size
-make_shirt("small", "Dive into Coding"); // Custom message, small size
+make_shirt();
+make_shirt("medium");
+make_shirt("small", "Dive into Coding");
 //QUESTION NO 38 (DESCRIBING CITIES WITH A FUNCTION )
 function DESCRIBING_city(city, contry) {
     console.log(`${city} is in ${contry}.`);
