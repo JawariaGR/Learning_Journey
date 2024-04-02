@@ -19,10 +19,3 @@ while (condition) {
     condition = addTask.addMore;
     console.log(todos);
 }
-let taskdelete = await inquirer.prompt([
-    {
-        name: "delete",
-        type: "input",
-        message: "which task to you want to delete?",
-    }
-]);
