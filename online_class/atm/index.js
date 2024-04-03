@@ -17,7 +17,7 @@ if (pinAnswer.pin === mypin) {
             name: "option",
             message: "Please select option",
             type: "list",
-            choices: ["withdraw", "check balance", "fast cash"],
+            choices: ["withdraw", "check balance", "fast cash", "Deposit amount"],
         },
     ]);
     if (operationAns.option === "withdraw") {
@@ -29,7 +29,7 @@ if (pinAnswer.pin === mypin) {
             },
         ]);
         if (currentbalance >= amountAns.amount) {
-            (currentbalance -= amountAns.amount);
+            currentbalance -= amountAns.amount;
             console.log("Your remaining balance is:", currentbalance);
         }
         else {
@@ -40,16 +40,30 @@ if (pinAnswer.pin === mypin) {
         console.log("your balance is", currentbalance);
     }
     else if (operationAns.option === "fast cash") {
-        let fast_cash = await inquirer.prompt([{
+        let fast_cash = await inquirer.prompt([
+            {
                 name: "cash",
                 message: "write amout you wish to fast cash",
                 type: "list",
-                choices: [500, 1000, 2000, 3000]
+                choices: [500, 1000, 2000, 3000],
             },
         ]);
         {
-            (currentbalance -= fast_cash.cash);
+            currentbalance -= fast_cash.cash;
             console.log("your remaining balance", currentbalance);
+        }
+    }
+    else if (operationAns.option === "Deposit amount") {
+        let depositAmount = await inquirer.prompt([
+            {
+                name: "deposit_amount",
+                message: "what Amount do you want to Deposit",
+                type: "number",
+            },
+        ]);
+        {
+            (currentbalance += depositAmount.deposit_amount);
+            console.log("your current balance", currentbalance);
         }
     }
 }
