@@ -24,24 +24,26 @@ if (Alien_color == "red") {
 else {
     console.log("The person I like the most is myself");
 }
-// QUESTION NO 27 ( CONVERT IF_ ELSE CHAIN TO HANDLE THREE COLORS YELLOW,GREEN)
+// QUESTION NO 27 ( CONVERT IF_ ELSE CHAIN TO HANDLE TWO COLORS YELLOW,GREEN)
 // YELLOW  ALIENCOLOR
-if (Alien_color == "yellow") {
+let alien_colors = "yellow";
+if (alien_colors == "yellow") {
     console.log("What the shadow witch had stolen from them,was not their ture faces but their courge  to find happiness");
 }
-else if (Alien_color == "red") {
+else if (alien_colors == "red") {
     console.log("you can't get out once you're trapped in the past");
 }
-else if (Alien_color == "green") {
+else if (alien_colors == "green") {
     console.log("you don't need to try so hard. just relax and be yourself");
 }
 //GREEN ALIENCOLOR
-if (alien_color == "green") {
+let alien_Color = "green";
+if (alien_Color == "green") {
     console.log("If you want to make around you happy you have to find your own happiness first");
 }
-else if (alien_color == "yellow") {
+else if (alien_Color == "yellow") {
     console.log("stop pretending like you're okay");
 }
-else if (alien_color == "red") {
+else if (alien_Color == "red") {
     console.log("Is being different something to be afraid of ?");
 }
