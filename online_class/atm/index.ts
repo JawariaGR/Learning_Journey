@@ -19,7 +19,7 @@ if (pinAnswer.pin === mypin) {
       name: "option",
       message: "Please select option",
       type: "list",
-      choices: ["withdraw", "check balance", "fast cash", "Deposit amount"],
+      choices: ["withdraw", "check balance", "fast cash"]
     },
   ]);
   if (operationAns.option === "withdraw") {
@@ -51,19 +51,7 @@ if (pinAnswer.pin === mypin) {
       currentbalance -= fast_cash.cash;
       console.log("your remaining balance", currentbalance);
     }
-  } else if (operationAns.option === "Deposit amount") {
-    let depositAmount = await inquirer.prompt([
-      {
-        name: "deposit_amount",
-        message: "what Amount do you want to Deposit",
-        type: "number",
-      },
-    ]);
-    {
-      (currentbalance += depositAmount.deposit_amount)
-      console.log("your current balance", currentbalance)
-    }
-  }
+  } 
 } else {
   console.log("Incorrect password. Access denied.");
 }

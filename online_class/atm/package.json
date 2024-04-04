@@ -1,6 +1,6 @@
 {
   "name": "jgr_atm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Atm made by type script",
   "main": "index.js",
   "type": "module",
