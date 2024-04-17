@@ -11,19 +11,17 @@ else if (ALIEN_Color === "yellow") {
 else if (ALIEN_Color === "green") {
     console.log("when you can't control yourself,count to three");
 }
-;
 //YELLOW ALIEN COLOR
 let alien_colors = "yellow";
 if (alien_colors === "red") {
     console.log("The person I like the most is myself");
 }
 else if (alien_colors === "yellow") {
-    console.log("What the shadow witch had stolen from them,was not their ture faces but their courge  to find happiness");
+    console.log("What the shadow witch had stolen from them, was not their ture faces but their courge to find happiness");
 }
 else if (alien_colors === "green") {
     console.log("If you want to make around you happy you have to find your own happiness first");
 }
-;
 //GREEN ALIEN COLOR
 let ALIEN_COLORS = "green";
 if (ALIEN_COLORS === "yellow") {
@@ -35,4 +33,3 @@ else if (ALIEN_COLORS === "red") {
 else if (ALIEN_COLORS === "green") {
     console.log("Is being different something to be afraid of ?");
 }
-;

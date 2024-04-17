@@ -18,7 +18,6 @@ console.log("Testing with array");
 let fruits = ["MANGO", "APPLE", "PEAR", "PINEAPPLE"];
 console.log("Is PINEAPPLE is inculde in array");
 console.log(fruits.includes("PINEAPPLE"));
-// TEST IN ARRAY AN ITEM IS NOT INCLUDE  
+// TEST IN ARRAY AN ITEM IS NOT INCLUDE
 console.log("Testing with array an item is not inculde");
-;
 console.log(!fruits.includes("APPLE"));

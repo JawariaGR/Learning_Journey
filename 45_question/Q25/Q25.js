@@ -5,9 +5,7 @@ let alien_color = "yellow";
 if (alien_color == "yellow") {
     console.log("I won the match");
 }
-;
 // Answer not pass
 if (alien_color == "red") {
     // NO ANSWER PRINT B/C CONDITION IS FALSE
 }
-;

@@ -8,7 +8,6 @@ if (ALIEN_COLOR == "red") {
 else {
     console.log("i need some extra practice");
 }
-;
 // VERSION THAT RUN ELSE BLOCK
 if (ALIEN_COLOR == "yellow") {
     console.log("If someone show up when you need them , you call that destiny");
