@@ -153,14 +153,28 @@ button:hover {
 }
 button:active {
   transform: scale(0.95);
-  background-color: rgb(250, 249, 251);
+  background-color: hsl(189, 84%, 53%);
   color: black;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: rgb(82, 82, 82);
+  height: 100px;
+  width: 100%;
+  margin-top: 20px;
+a{
+  text-decoration: none;
+  color: rgb(22, 213, 213);
+}
 }
 .hide {
   display: none;
 }
 @media print {
-  #btn {
+  #btn ,footer{
     display: none;
   }
 }
