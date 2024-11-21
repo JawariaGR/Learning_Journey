@@ -81,10 +81,11 @@ textarea {
   display: inline-block;
   margin-top: 15px;
   width: 81%;
-  height: 50px;
+  height: 45px;
   border-radius: 5px;
   resize: none;
   border: 2px solid;
+  overflow-y: scroll;
 }
 #info {
   margin-top: 10px;

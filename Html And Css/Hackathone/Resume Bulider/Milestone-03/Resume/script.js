@@ -110,10 +110,30 @@ window.addEventListener("load", () => {
     clientSkill1.textContent = skill1;
     clientSkill2.textContent = skill2;
     clientSkill3.textContent = skill3;
-    clientSkill4.textContent = skill4;
-    clientSkill5.textContent = skill5;
-    clientSkill6.textContent = skill6;
-    clientSkill7.textContent = skill7;
+    if (!clientSkill4) {
+        clientSkill4.style.display = "none";
+    }
+    else {
+        clientSkill4.textContent = skill4;
+    }
+    if (!clientSkill5) {
+        clientSkill5.style.display = "none";
+    }
+    else {
+        clientSkill5.textContent = skill5;
+    }
+    if (!clientSkill6) {
+        clientSkill6.style.display = "none";
+    }
+    else {
+        clientSkill6.textContent = skill6;
+    }
+    if (!clientSkill7) {
+        clientSkill7.style.display = "none";
+    }
+    else {
+        clientSkill7.textContent = skill7;
+    }
     // LANGUAGES
     let clientLang1 = document.getElementById("clientlang1");
     let clientLang2 = document.getElementById("clientlang2");

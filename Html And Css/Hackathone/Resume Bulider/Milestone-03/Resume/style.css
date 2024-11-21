@@ -49,7 +49,7 @@ aside {
 #contact {
   color: aliceblue;
   margin-top: 10px;
-  margin-left: 40px;
+  margin-left: 90px;
   i {
     padding-right: 3px;
   }
@@ -57,24 +57,15 @@ aside {
 #Skills {
   margin-top: 10px;
   color: aliceblue;
-  ul {
-    margin-top: 10px;
-    margin-left: -40px;
-  }
-  li {
-    list-style-type: none;
+  li:empty{
+display: none;
   }
 }
 #Languages {
   margin-top: 10px;
   color: aliceblue;
-
-  ul {
-    margin-left: -40px;
-  }
-  li {
-    list-style-type: none;
-  }
+  li{
+     list-style-type: none; }
 }
 #Award {
   margin-top: -10px;
