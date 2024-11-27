@@ -150,7 +150,6 @@ button:hover {
 }
 button:active {
   transform: scale(0.95);
-  background-color: hsl(189, 84%, 53%);
   color: black;
 }
 
