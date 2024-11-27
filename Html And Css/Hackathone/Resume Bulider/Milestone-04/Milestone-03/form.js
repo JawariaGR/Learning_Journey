@@ -89,5 +89,5 @@ form?.addEventListener("submit", (e) => {
         });
         reader.readAsDataURL(Pic.files[0]);
     }
-    window.location.href = "./Resume/index.html";
+    window.location.href = "/Milestone-03/Resume/index.html";
 });
