@@ -215,7 +215,6 @@ let edu_btn = document.getElementById("edu-btn");
 edu_btn!.addEventListener("click", () => {
   education!.classList.toggle("hide");
 });
-
 let print_btn = document.getElementById("print-btn");
 print_btn!.addEventListener("click", () => {
   window.print();

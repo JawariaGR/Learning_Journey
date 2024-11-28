@@ -145,12 +145,12 @@ button {
   box-shadow: 2px 2px rgb(18, 18, 18);
 }
 button:hover {
-  background-color: #b8b4b4;
+  background-color: #4e4949;
+  color: black;
   transform: scale(0.95);
 }
 button:active {
   transform: scale(0.95);
-  background-color: hsl(189, 84%, 53%);
   color: black;
 }
 
