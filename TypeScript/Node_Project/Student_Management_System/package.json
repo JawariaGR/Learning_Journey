@@ -1,0 +1,16 @@
+{
+  "name": "student_management_system",
+  "version": "1.0.0",
+  "description": "student Management System is based in TypeScript,Node.js and inquirer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jawaria",
+  "license": "MIT",
+  "dependencies": {
+    "@types/inquirer": "^9.0.7",
+    "inquirer": "^11.1.0"
+  }
+}
