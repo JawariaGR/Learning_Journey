@@ -8,6 +8,22 @@ body {
   align-items: center;
   box-sizing: border-box;
 }
+header {
+  h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 500px;
+    font-size: 22px;
+  }
+  #btn {
+    margin-left: 0;
+    margin: 10px;
+    width: 100%;
+  }
+}
 .container {
   display: flex;
   position: relative;
@@ -134,7 +150,7 @@ p:first-of-type {
   justify-content: center;
   width: 80%;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 button {
   border-radius: 5px;
@@ -177,12 +193,25 @@ footer {
 }
 @media print {
   #btn,
+  header,
   footer {
     display: none;
   }
 }
 
 @media (max-width: 786px) {
+  header {
+    h2 {
+      margin-top: 20px;
+      margin-left: 2px;
+      font-size: 18px;
+    }
+    width: 100%;
+    #btn {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
   .container {
     flex-direction: column;
   }
@@ -190,8 +219,9 @@ footer {
   main {
     width: 100%;
   }
-  #btn {
-    display: flex;
-    flex-wrap: wrap;
+  footer {
+    align-items: center;
+    font-size: 12px;
+    width: 100%;
   }
 }
