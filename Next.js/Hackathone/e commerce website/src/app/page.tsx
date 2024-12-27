@@ -30,9 +30,9 @@ export default function Home() {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
               laudantium rem enim maiores corporis dolores.
             </p>
-            <button className="bg-[#bc9536] h-14 w-40 rounded-sm mt-24 mr-32 text-[#FFFFFF] font-bold shadow-xl hover:bg-[#e3b64b] hover:translate-x-2 hover:translate-y-3">
+        <Link href={"/navshop"}>    <button className="bg-[#bc9536] h-14 w-40 rounded-sm mt-24 mr-32 text-[#FFFFFF] font-bold shadow-xl hover:bg-[#e3b64b] hover:translate-x-2 hover:translate-y-3">
               Buy Now
-            </button>
+            </button></Link>
           </div>
         </div>
       </main>
@@ -109,7 +109,7 @@ export default function Home() {
               <div className="m-7">
                 <h1 className="font-bold">Grifo</h1>
                 <p className="text-gray-500 text-sm">Night lamp</p>
-                <p className="font-bold pt-2">Rp 1.500.000 </p>
+                <p className="font-bold pt-2">Rp 1,500.000 </p>
               </div>{" "}
             </div>
             <div className="relative group shadow-xl rounded-lg bg-[#f4f5f7]">
@@ -152,9 +152,9 @@ export default function Home() {
                 <h1 className="font-bold">Pingky</h1>
                 <p className="text-gray-500 text-sm">Cute bad set</p>
                 <p className="font-bold pt-2">
-                  Rp 7.000.000
+                  Rp 7,000.000
                   <span className="pl-2 font-light">
-                    <del>Rp 14.000.000</del>
+                    <del>Rp 14,000.000</del>
                   </span>
                 </p>
               </div>{" "}

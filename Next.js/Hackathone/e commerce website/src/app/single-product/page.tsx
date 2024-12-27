@@ -132,7 +132,7 @@ export default function singleProduct() {
               <p className="h-10 w-10 bg-[#000000] rounded-3xl hover:translate-y-1 hover:translate-x-1"></p>
               <p className="h-10 w-10 bg-[#B88E2F] rounded-3xl hover:translate-y-1 hover:translate-x-1"></p>
             </div>
-            <div className="flex">
+            <div className="flex border-b-2 pb-20">
               <div className="flex flex-col lg:flex-row mt-10 mr-6 gap-5 ">
                 <div className="rounded-lg h-16 w-48 lg:w-32 flex justify-center items-center gap-7 border-2">
                   <button>
@@ -142,12 +142,12 @@ export default function singleProduct() {
                 <button className="border-solid border-2 w-48 h-16  rounded-lg">
                   Add to cart
                 </button>
-                <button className="border-solid border-2 w-48 h-16  rounded-lg">
+                <Link href={"/compare"} className="border-solid border-2 w-48 h-16  text-center pt-5 rounded-lg">
                   + compare
-                </button>
+                </Link>
               </div>
             </div>
-            <div className="border-t-2 mt-20">
+            <div className="mt-6">
               <div className="flex mt-12">
                 <h1 className="font-bold text-xl text-[#9F9F9F]">SKU</h1>
                 <p className="pl-16 font-bold text-[#9F9F9F]">:</p>

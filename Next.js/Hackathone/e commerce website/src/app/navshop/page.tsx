@@ -52,18 +52,17 @@ export default function navShop() {
             </p>
           </div>
         </div>
-        <div className="flex mt-7 mr-24 ml-7 lg:ml-0">
-          <p className="font-medium text-xl mr-5">Show</p>
-          <p className="bg-[white] h-12 w-12 mr-24 -mt-2 flex justify-center items-center text-[#9F9F9F]">
+        <div className="flex  mt-7 mr-24 ml-7 lg:ml-0">
+          <p className="font-medium text-xl pr-5 pt-2 ">Show</p>
+          <p className="bg-[white] h-12 lg:w-12 w-16 mr-20 mt-1 flex justify-center items-center text-[#9F9F9F]">
             16
           </p>
-          <p className="font-medium text-xl mr-4 pb-4 lg:pb-0 ">Short by</p>
-          <p
-            className="text-[#9F9F9F] h-14 w-36 bg-white -mt-2 lg:-mt-4 pl-5 pt-3
-          "
-          >
-            Default
-          </p>
+          <label className="font-medium text-xl mr-4 pt-2"> Short by </label>
+
+          <select className="h-12 w-40 pl-3 bg-white text-[#9F9F9F] mb-4 items-center">
+            <option value={"defulat"}> Default</option>
+            <option>A-Z</option>
+          </select>
         </div>
       </div>
       {/*Product*/}

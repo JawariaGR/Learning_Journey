@@ -39,9 +39,9 @@ export default function Product() {
             <h1 className="font-bold">Syltherine</h1>
             <p className="text-gray-500 text-sm">Stylish Cafe Chair</p>
             <p className="font-bold pt-2">
-              Rp 2.500.000{" "}
+              Rp 2,500.000{" "}
               <span className="pl-2 font-light">
-                <del>Rp3.500.000</del>
+                <del>Rp3,500.000</del>
               </span>
             </p>
           </div>
@@ -82,7 +82,7 @@ export default function Product() {
           <div className="m-7">
             <h1 className="font-bold">Levios</h1>
             <p className="text-gray-500 text-sm">Stylish Cafe chair</p>
-            <p className="font-bold pt-2">Rp 2.500.000</p>
+            <p className="font-bold pt-2">Rp 2,500.000</p>
           </div>
         </div>
         <div className="relative group shadow-xl rounded-lg bg-[#f4f5f7]">
@@ -124,9 +124,9 @@ export default function Product() {
             <h1 className="font-bold">Lolite</h1>
             <p className="text-gray-500 text-sm">Luxury big sofa</p>
             <p className="font-bold pt-2">
-              Rp 7.000.000{" "}
+              Rp 7,000.000{" "}
               <span className="pl-2 font-light">
-                <del>Rp 14.000.000</del>
+                <del>Rp 14,000.000</del>
               </span>
             </p>
           </div>
@@ -170,7 +170,7 @@ export default function Product() {
           <div className="m-7">
             <h1 className="font-bold">Respire</h1>
             <p className="text-gray-500 text-sm">Outdoor bar table and stool</p>
-            <p className="font-bold pt-2">Rp 5.000.000</p>
+            <p className="font-bold pt-2">Rp 5,000.000</p>
           </div>
         </div>
       </div>
