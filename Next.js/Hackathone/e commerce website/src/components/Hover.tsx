@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Hover() {
   return (
-    <div className=" absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center flex-col opacity-0 group-hover:opacity-100 cursor-pointer">
+    <div className="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center flex-col opacity-0 group-hover:opacity-100 cursor-pointer">
       <Link href={"/cart"}>
         <button className="bg-white text-[#bc953b] rounded-sm w-44 h-14 font-bold  mb-2 ">
           Add to cart

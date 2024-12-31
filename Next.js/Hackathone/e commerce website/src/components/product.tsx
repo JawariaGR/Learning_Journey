@@ -9,7 +9,7 @@ export default function Product() {
         <div className="relative group shadow-xl rounded-lg bg-[#f4f5f7]">
           <Link href={"/single-product"}>
             <Image src={"/Images.png"} alt="propic" width={285} height={301} />
-            <div className=" absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center flex-col opacity-0 group-hover:opacity-100 cursor-pointer">
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center flex-col opacity-0 group-hover:opacity-100 cursor-pointer">
               <Link href={"/cart"}>
                 <button className="bg-white text-[#bc953b] rounded-sm w-44 h-14 font-bold  mb-2 ">
                   Add to cart
@@ -55,7 +55,7 @@ export default function Product() {
               width={285}
               height={301}
             />
-            <div className=" absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center flex-col opacity-0 group-hover:opacity-100 cursor-pointer">
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center flex-col opacity-0 group-hover:opacity-100 cursor-pointer">
               <Link href={"/cart"}>
                 {" "}
                 <button className="bg-white text-[#bc953b] rounded-sm w-44 h-14 font-bold  mb-2 ">
@@ -94,7 +94,7 @@ export default function Product() {
               width={285}
               height={301}
             />
-            <div className=" absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center flex-col opacity-0 group-hover:opacity-100 cursor-pointer">
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center flex-col opacity-0 group-hover:opacity-100 cursor-pointer">
               <Link href={"/cart"}>
                 <button className="bg-white text-[#bc953b] rounded-sm w-44 h-14 font-bold  mb-2 ">
                   Add to cart
@@ -140,7 +140,7 @@ export default function Product() {
               width={285}
               height={301}
             />
-            <div className=" absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center flex-col opacity-0 group-hover:opacity-100 cursor-pointer">
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center flex-col opacity-0 group-hover:opacity-100 cursor-pointer">
               <Link href={"/cart"}>
                 {" "}
                 <button className="bg-white text-[#bc953b] rounded-sm w-44 h-14 font-bold  mb-2 ">

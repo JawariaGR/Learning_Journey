@@ -174,12 +174,12 @@ export default function Blog() {
         </div>
         <div>
           <div className="flex flex-col float-right mt-5 lg:mt-0 ml-9 lg:ml-0 lg:mr-48">
-            <div>
+            <div className="hidden lg:block ">
               <button className="border-2 rounded-md lg:w-72 w-[400px] p-2   border-[#9F9F9F]">
                 <Search className="float-right" />
               </button>
             </div>
-            <div className="text-[#9F9F9F]  text-lg gap-3 mt-6 mb-10 ">
+            <div className="text-[#9F9F9F] hidden lg:block text-lg gap-3 mt-6 mb-10 ">
               <h1 className="font-bold text-2xl lg:pl-3 pl-32 text-black">Categories</h1>{" "}
               <p className="pt-5">
                 Crafts<span className="float-right">2</span>
@@ -197,7 +197,7 @@ export default function Blog() {
                 Wood<span className="float-right">6</span>
               </p>
             </div>
-            <div className="mt-9 mb-9 lg:mb-0 ">
+            <div className="mt-5 mb-9 -ml-4 lg:-ml-0 lg:mb-0 ">
               <h1 className="font-bold text-2xl">Recent Post</h1>
               <div className="flex items-start mt-7">
                 <Image

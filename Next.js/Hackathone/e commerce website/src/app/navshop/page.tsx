@@ -53,10 +53,12 @@ export default function navShop() {
           </div>
         </div>
         <div className="flex  mt-7 mr-24 ml-7 lg:ml-0">
-          <p className="font-medium text-xl pr-5 pt-2 ">Show</p>
-          <p className="bg-[white] h-12 lg:w-12 w-16 mr-20 mt-1 flex justify-center items-center text-[#9F9F9F]">
-            16
-          </p>
+          <label className="font-medium text-xl pr-5 pt-2 ">Show</label>
+          <input
+            type="number"
+            placeholder="16"
+            className="bg-[white] h-12 lg:w-12 w-16 mr-20 mt-1 lg:pl-3 pl-5 text-[#9F9F9F]"
+          ></input>
           <label className="font-medium text-xl mr-4 pt-2"> Short by </label>
 
           <select className="h-12 w-40 pl-3 bg-white text-[#9F9F9F] mb-4 items-center">
@@ -86,13 +88,13 @@ export default function navShop() {
           <p className="h-12 w-12  pt-3 pl-5 bg-[#b88e2f] text-[#FFFFFF]  rounded-lg hover:translate-x-3 hover:translate-y-3">
             1
           </p>
-          <p className="bg-[#f9f1e7] h-12 w-12  pt-3 pl-5 rounded-lg hover:translate-x-3 hover:translate-y-3 hover:bg-[#b88e2f]">
+          <p className="bg-[#f9f1e7] h-12 w-12  pt-3 pl-5 rounded-lg hover:translate-x-3 hover:translate-y-3 hover:bg-[#b88e2f] hover:text-white">
             2
           </p>
-          <p className="bg-[#f9f1e7] h-12 w-12 pt-3 pl-5 rounded-lg hover:translate-x-3 hover:translate-y-3 hover:bg-[#b88e2f]">
+          <p className="bg-[#f9f1e7] h-12 w-12 pt-3 pl-5 rounded-lg hover:translate-x-3 hover:translate-y-3 hover:bg-[#b88e2f] hover:text-white">
             3
           </p>
-          <p className="bg-[#f9f1e7] h-12 w-20 pt-3 pl-5 rounded-lg hover:translate-x-3 hover:translate-y-3 hover:bg-[#b88e2f]">
+          <p className="bg-[#f9f1e7] h-12 w-20 pt-3 pl-5 rounded-lg hover:translate-x-3 hover:translate-y-3 hover:bg-[#b88e2f] hover:text-white">
             Next
           </p>
         </div>

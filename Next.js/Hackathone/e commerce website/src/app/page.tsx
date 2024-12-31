@@ -182,7 +182,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className=" flex justify-center items-center mt-14">
+        <div className="flex justify-center items-center mt-14">
           <Link href={"/navshop"}>
             {" "}
             <button className="bg-white border-[#B88E2F] border-solid border-2 w-48 h-10 text-[#B88E2F] shadow-xl hover:translate-x-4 hover:translate-y-4 ">
