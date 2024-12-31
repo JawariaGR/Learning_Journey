@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 import LocationOn from "@mui/icons-material/LocationOn";
-import Call from "@mui/icons-material/call";
+import Call from "@mui/icons-material/Call";
 import Schedule from "@mui/icons-material/Schedule";
 import Topfooter from "@/components/TopFooter";
 import Footer from "@/components/Footer";
