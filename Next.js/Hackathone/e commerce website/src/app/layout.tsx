@@ -1,4 +1,6 @@
 import React, { ReactNode } from "react";
+import { Metadata } from "next";
+import { JSX } from "react";
 import "./globals.css";
 export const metadata: Metadata = {
   title: "UI/UX Hackathone",
