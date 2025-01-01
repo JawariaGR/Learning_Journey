@@ -69,21 +69,10 @@ export default function navShop() {
       </div>
       {/*Product*/}
       <div className="m-28">
-        <div className="mb-9">
-          <Product />
-        </div>
-        <div className="mb-9">
-          <Product />
-        </div>{" "}
-        <div className="mb-9">
-          <Product />
-        </div>{" "}
-        <div className="mb-9">
-          <Product />
-        </div>{" "}
-        <div className="mb-9">
-          <Product />
-        </div>
+        <Product />
+        <Product />
+        <Product />
+        <Product />
         <div className="lg:flex hidden justify-center items-center gap-7 m-20 cursor-pointer">
           <p className="h-12 w-12  pt-3 pl-5 bg-[#b88e2f] text-[#FFFFFF]  rounded-lg hover:translate-x-3 hover:translate-y-3">
             1

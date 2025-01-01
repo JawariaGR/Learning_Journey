@@ -4,25 +4,26 @@ import Link from "next/link";
 
 export default function Product() {
   return (
-    <div className="flex justify-center items-center ">
+    <div className="flex justify-center items-center mb-8 ">
       <div className="grid lg:grid-rows-1 lg:grid-cols-4 gap-7 grid-row-1 grid-col-1">
         <div className="relative group shadow-xl rounded-lg bg-[#f4f5f7]">
           <Link href={"/single-product"}>
             <Image src={"/Images.png"} alt="propic" width={285} height={301} />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center flex-col opacity-0 group-hover:opacity-100 cursor-pointer">
-              <Link href={"/cart"}>
-                <button className="bg-white text-[#bc953b] rounded-sm w-44 h-14 font-bold  mb-2 ">
-                  Add to cart
-                </button>
-              </Link>
+              <button className="bg-white text-[#bc953b] rounded-sm w-44 h-14 font-bold  mb-2 ">
+                Add to cart
+              </button>
               <div className="text-white m-9 inline-flex space-x-4 ">
                 <div className="flex">
                   <Share2 />
                   <p>Share</p>
                 </div>
-                <div className="flex">
-                  <ArrowLeftRight />
-                  <p>Compare</p>
+                <div>
+                  <Link href={"/compare"} className="flex">
+                    {" "}
+                    <ArrowLeftRight />
+                    <p>Compare</p>
+                  </Link>
                 </div>
                 <div className="flex">
                   {" "}
@@ -56,20 +57,21 @@ export default function Product() {
               height={301}
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center flex-col opacity-0 group-hover:opacity-100 cursor-pointer">
-              <Link href={"/cart"}>
-                {" "}
-                <button className="bg-white text-[#bc953b] rounded-sm w-44 h-14 font-bold  mb-2 ">
-                  Add to cart
-                </button>
-              </Link>
+              {" "}
+              <button className="bg-white text-[#bc953b] rounded-sm w-44 h-14 font-bold  mb-2 ">
+                Add to cart
+              </button>
               <div className="text-white m-9 inline-flex space-x-4 ">
                 <div className="flex">
                   <Share2 />
                   <p>Share</p>
                 </div>
-                <div className="flex">
-                  <ArrowLeftRight />
-                  <p>Compare</p>
+                <div>
+                  <Link href={"/compare"} className="flex">
+                    {" "}
+                    <ArrowLeftRight />
+                    <p>Compare</p>
+                  </Link>
                 </div>
                 <div className="flex">
                   {" "}
@@ -95,19 +97,20 @@ export default function Product() {
               height={301}
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center flex-col opacity-0 group-hover:opacity-100 cursor-pointer">
-              <Link href={"/cart"}>
-                <button className="bg-white text-[#bc953b] rounded-sm w-44 h-14 font-bold  mb-2 ">
-                  Add to cart
-                </button>
-              </Link>
+              <button className="bg-white text-[#bc953b] rounded-sm w-44 h-14 font-bold  mb-2 ">
+                Add to cart
+              </button>
               <div className="text-white m-9 inline-flex space-x-4 ">
                 <div className="flex">
                   <Share2 />
                   <p>Share</p>
                 </div>
-                <div className="flex">
-                  <ArrowLeftRight />
-                  <p>Compare</p>
+                <div>
+                  <Link href={"/compare"} className="flex">
+                    {" "}
+                    <ArrowLeftRight />
+                    <p>Compare</p>
+                  </Link>
                 </div>
                 <div className="flex">
                   {" "}
@@ -141,20 +144,21 @@ export default function Product() {
               height={301}
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center flex-col opacity-0 group-hover:opacity-100 cursor-pointer">
-              <Link href={"/cart"}>
-                {" "}
-                <button className="bg-white text-[#bc953b] rounded-sm w-44 h-14 font-bold  mb-2 ">
-                  Add to cart
-                </button>
-              </Link>
+              {" "}
+              <button className="bg-white text-[#bc953b] rounded-sm w-44 h-14 font-bold  mb-2 ">
+                Add to cart
+              </button>
               <div className="text-white m-9 inline-flex space-x-4 ">
                 <div className="flex">
                   <Share2 />
                   <p>Share</p>
                 </div>
-                <div className="flex">
-                  <ArrowLeftRight />
-                  <p>Compare</p>
+                <div>
+                  <Link href={"/compare"} className="flex">
+                    {" "}
+                    <ArrowLeftRight />
+                    <p>Compare</p>
+                  </Link>
                 </div>
                 <div className="flex">
                   {" "}

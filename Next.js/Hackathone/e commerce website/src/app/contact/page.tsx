@@ -20,7 +20,7 @@ export default function Contact() {
             width={14440}
             className="bg-cover"
           />
-          <div className="absolute lg:top-[120px] top-9 left-44 lg:left-[650px]">
+          <div className="absolute lg:top-[120px] top-10 left-44 lg:left-[650px]">
             <Image
               src={"/Meubel House_Logos-05.png"}
               alt="logo"
@@ -118,7 +118,7 @@ export default function Contact() {
                 name="message"
               ></textarea>
             </form>
-            <button className="bg-[#bc9536] h-14 w-44 rounded-sm mt-16 ml-6 lg:ml-0 text-[#FFFFFF] font-bold shadow-xl hover:bg-[#e3b64b] hover:translate-x-2 hover:translate-y-3">
+            <button className="bg-[#bc9536] h-14 w-44 rounded-sm mt-16 ml-6 lg:ml-0 text-[#FFFFFF] font-bold shadow-2xl hover:bg-[#d8a52d]  hover:translate-x-2 hover:translate-y-3">
               Submite
             </button>
           </div>

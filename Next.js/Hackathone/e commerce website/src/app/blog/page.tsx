@@ -264,16 +264,16 @@ export default function Blog() {
         </div>
       </div>
       <div className="lg:flex hidden justify-center items-center gap-7 m-20 cursor-pointer">
-        <p className="h-12 w-12  pt-3 pl-5 bg-[#b88e2f] text-[#FFFFFF]  rounded-lg hover:translate-x-3 hover:translate-y-3">
+        <p className="h-12 w-12  pt-3 pl-5 bg-[#b88e2f] text-[#FFFFFF] rounded-lg hover:translate-x-3 hover:translate-y-3">
           1
         </p>
-        <p className="bg-[#f9f1e7] h-12 w-12  pt-3 pl-5 rounded-lg hover:translate-x-3 hover:translate-y-3">
+        <p className="bg-[#f9f1e7] h-12 w-12  pt-3 pl-5 rounded-lg hover:bg-[#b88e2f] hover:text-white hover:translate-x-3 hover:translate-y-3">
           2
         </p>
-        <p className="bg-[#f9f1e7] h-12 w-12 pt-3 pl-5 rounded-lg hover:translate-x-3 hover:translate-y-3">
+        <p className="bg-[#f9f1e7] h-12 w-12 pt-3 pl-5 rounded-lg hover:bg-[#b88e2f] hover:text-white hover:translate-x-3 hover:translate-y-3">
           3
         </p>
-        <p className="bg-[#f9f1e7] h-12 w-20 pt-3 pl-5 rounded-lg hover:translate-x-3 hover:translate-y-3 active:bg-[#b88e2f]">
+        <p className="bg-[#f9f1e7] h-12 w-20 pt-3 pl-5 rounded-lg hover:bg-[#b88e2f] hover:text-white hover:translate-x-3 hover:translate-y-3 active:bg-[#b88e2f]">
           Next
         </p>
       </div>
